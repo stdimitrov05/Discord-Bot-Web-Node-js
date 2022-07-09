@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Page/images/pizza-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Welcome To Felicità </title>
+</head>
+
+<body>
+<div class="container">
+  <div class="overlay" id="overlay">
+    <div class="sign-in" id="sign-in">
+      <h1>Welcome Back!</h1>
+      <p>To keep connected with us please login with your personal info</p>
+      <button class="switch-button" id="slide-right-button">Sign Up</button>
+    </div>
+    <div class="sign-up" id="sign-up">
+      <h1>Hello, Friend!</h1>
+      <p>Enter your personal details and start a journey with us</p>
+     
+      <button class="switch-button" id="slide-left-button"> Sign In</button>
+    </div>
+  </div>
+  <div class="form">
+    <div class="sign-in" id="sign-in-info">
+    <h1>Create Account</h1>
+     
+     <p class="small">or use your email for registration:</p>
+     <form id="form">
+      <label for="name" id="nlabel">Name</label> <br>
+      <input type="text" id="fname" placeholder="Lucifer Henry " autocomplete="off" class="box" > <br>
+      <label for="email" id="elabel" >Email</label> <br>
+      <input type="email" id="eemail" placeholder="Lucifer@gmail.com" autocomplete="off" class="box" > <br>
+      <label for="password" id="plabel" >Password</label> <br>
+      <input type="password" name="password" id="lpassword"> <br>
+      <button type="submit"  onclick="UserRegister()" id="btn">Sign Up </button>
+  </form>
+
+
+      
+    </div>
+    <div class="sign-up" id="sign-up-info">
+    <h1>Sign In</h1>
+      
+      <p class="small">or use your email account:</p>
+      <form action="" id="form">
+        <label for="email" id="elabel">Email</label> <br>
+        <input type="email" id="eemail" placeholder="youemai@gmail.com" class="box" autocomplete="off"> <br>
+        <label for="password" id="plabel">Password</label> <br>
+        <input type="password" class="box" name="password" id="lpassword"> <br>
+        <button type="submit" onclick="SignIn()" id="btn1">Log-In </button>
+    </form>
+
+    </div>
+  </div>
+</div>
+   
+   
+      
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+<script src="js/form.js"></script>
+<script src="js/system/confing.js"></script>
+</html>

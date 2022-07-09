@@ -8,8 +8,8 @@ header {
   position: absolute;
   text-align: center;
 }
-h1{
-    color: #ffffff;
+h1 {
+  color: #ffffff;
 }
 header h1,
 p {
@@ -47,23 +47,7 @@ nav a {
 nav .icon {
   display: none;
 }
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-  }
-  
-  .role{
-    color: #ff0000;
-    font-size: 22px;
-  }
-  .card img{
-width: 100%;
-border-radius: 50%;
-  }
-  
+
 @media screen and (max-width: 600px) {
   header {
     display: none;
