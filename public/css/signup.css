@@ -2,10 +2,10 @@
     --form-height:550px;
     --form-width: 900px;
     /*  Sea Green */
-    --left-color: #e1510a;
+    --left-color: #ff0000;
     /*  Light Blue  */
-    --right-color: #ff7b07;
-    --back-color : rgb(244, 242, 240);
+    --right-color: #c00404 ;
+    --back-color : rgb(0, 0, 0);
   }
   
   body, html{
@@ -31,16 +31,46 @@
         Overlay
   ----------------------
   */
+  #form label {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 8px 0px;
+    color: #ff0000;
+}
   #form input {
     border:none;
-    border-bottom:3px solid #1FAB89;
+    border-bottom:3px solid #ff0000;
     width: 350px;
-    margin: 10px 0px;
+    margin: 5px ;
     outline: none;
-    font-size: 0.6rem;
-    padding: 5px 0px;  
-    font-family: 'Comfortaa', cursive;
-    font-weight: 800;  
+    font-size: 25px;
+    padding: 15px;  
+    font-weight: 3rem;  
+}
+.btn{
+  box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.btn:hover{
+  background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.btn :active {
+	position:relative;
+	top:1px;
 }
   .overlay{
     width: 100%; 
@@ -215,7 +245,7 @@
   
   .small{
     font-size: 13px;
-    color: grey;
+    color: #fe1a00;
     font-weight: 200;
     margin: 5px;
   }
@@ -227,7 +257,7 @@
     width: 260px;
     font-weight: 300;
     border: none;
-    background-color: #e4e4e494;
+    background-color: #fffffff5;
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 1.5px;
     padding-left: 20px;

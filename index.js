@@ -20,5 +20,8 @@ app.get("", (req, res) => {
 app.get("/signup.html", (req, res) => {
   res.sendFile(path.join(__dirname + "/views/signup.html"));
 });
+app.get("/home.html", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/home.html"));
+});
 
 app.listen(port, () => console.info(`App listening on port ${port}`));
